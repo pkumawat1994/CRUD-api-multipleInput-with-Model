@@ -6,6 +6,7 @@ import MyReactTable from "./component/MyReactTable";
 import Toastify from "./component/Toastify";
 import Spinner from "./component/Spinner";
 import CrudAPI from "./component/CrudAPI";
+import MultipleInputData from "./component/MultipleInputData";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       // <Spinner />
       <Home />
       <CrudAPI />
+      //multiple input with validation with single state and single handleChange
+      <MultipleInputData />
     </>
   );
 }
