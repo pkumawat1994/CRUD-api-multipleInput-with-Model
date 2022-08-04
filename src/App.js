@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Home from "./component/Home";
+import Table from "./component/Table";
 import "./index.css";
 import MyReactTable from "./component/MyReactTable";
 import Toastify from "./component/Toastify";
@@ -14,10 +14,11 @@ function App() {
       // <MyReactTable />
       // <Toastify />
       // <Spinner />
-      <Home />
+      <Table />
       <CrudAPI />
       //multiple input with validation with single state and single handleChange
       <MultipleInputData />
+      //React hook form with material ui
     </>
   );
 }

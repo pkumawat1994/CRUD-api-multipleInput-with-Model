@@ -47,10 +47,11 @@ export default class CrudAPI extends Component {
   };
   myFormData = (e) => {
     e.preventDefault();
+
     console.log(this.state.avatar.name);
     const obj = {
       name: this.state.name,
-      avatar: this.state.avatar.name.toString(),
+      avatar: this.state.avatar.name,
     };
     console.log(obj);
     console.log("before", this.state.getData);
